@@ -70,12 +70,20 @@ This project provided deep insights into neural networks, CNN optimization, and 
 This project was conducted under the supervision of Mme. Dorra DHOUIB and is intended solely for academic use within our university's laboratory. The source code is confidential and will not be made public in compliance with medical data privacy policies.
 
 ## Gradio Interface
-Below are images of the user interface developed using Gradio:
+Below are some screenshots of the user interface of our app (deployment of our model) developed using Gradio:
 
-### Default Interface
-![Default Gradio Interface](path/to/default_interface_image.png)
+### Empty Interface
+![Default Gradio Interface](assets/empty-upload-gradio-ui-1.png)
+*This is the default interface where users can upload their bone marrow smear images for classification and segmentation.*
 
-### Uploaded Image for Annotation/Segmentation
-![Uploaded Image for Gradio Annotation](path/to/uploaded_image_interface.png)
+### Uploaded Image for Annotation
+![Uploaded Image for Gradio Annotation](assets/image-annotation-gradio-ui-3.png)
+*This interface displays the uploaded image ready for annotation and segmentation.*
 
-*Note: Please replace `path/to/default_interface_image.png` and `path/to/uploaded_image_interface.png` with the actual paths to your images.*
+### Segmentation Result
+![Segmentation Result](assets/image-segmentation-gradio-ui-2.png)
+*The result of the segmentation process highlighting the detected cells in the smear image.*
+
+### Classification Report
+![Classification Report](assets/classification-report-gradio-ui-4.png)
+*This report summarizes the classification performance of the model on the uploaded image.*
